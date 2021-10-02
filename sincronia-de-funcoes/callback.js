@@ -32,7 +32,7 @@ function obterEndereco(idUsuario) {
             numero: 33,
             endereco: 'Baker Street'
         }
-    })
+    }, 3000)
 }
 
 const usuario = obterUsuario()
@@ -67,7 +67,7 @@ function obterEnderecoNew(idUsuario, callback) {
             numero: 33,
             endereco: 'Baker Street'
         })
-    })
+    }, 3000)
 }
 
 /*
